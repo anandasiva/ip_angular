@@ -1,0 +1,996 @@
+.sivaimg {
+    width: 1270px;
+    height: 800px;
+    background-image: url(meet23.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: rgb(247, 249, 247);
+
+
+
+
+
+}
+
+* {
+    box-sizing: border-box;
+
+
+}
+
+
+.rowr {
+    margin: 0 65px;
+}
+
+
+
+
+.column {
+    float: left;
+    width: 350px;
+    box-shadow: 5px 4px 10px 0 rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    height: 500px;
+    background-color: #ff5821;
+    margin: -150px 10px;
+    color: white;
+    border-radius: 5px;
+}
+
+.column1 {
+    float: left;
+    width: 220px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    height: 450px;
+    background-color: white;
+    text-align: center;
+    margin: -130px 10px;
+    border-radius: 10px;
+}
+
+
+
+.sivaimg3 {
+    width: 1270px;
+    height: 400px;
+    background-color: rgb(15, 219, 103);
+}
+
+.siva {
+    position: absolute;
+    top: 400px;
+    left: 100px;
+    animation-name: example;
+    animation-duration: 2s;
+
+}
+
+
+
+@keyframes example {
+    from {
+        opacity: 0.1;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.siva1 {
+    position: absolute;
+    top: 550px;
+    left: 100px;
+
+}
+
+.siva4 {
+    width: 45%;
+    position: absolute;
+    top: 1400px;
+    left: 570px;
+    text-align: justify;
+
+}
+
+.siva5 {
+    width: 92%;
+    position: absolute;
+    top: 150px;
+    left: 80px;
+    text-align: justify;
+
+}
+
+
+.siva3 {
+    position: absolute;
+    top: 1190px;
+    left: 180px;
+
+
+}
+
+.siva2 {
+    position: absolute;
+    top: 543px;
+    left: 85px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+}
+
+.circle {
+    height: 50px;
+    width: 50px;
+    background-color: #ff5821;
+    border-radius: 50%;
+}
+
+.bttn {
+
+    color: white;
+    background-color: #584b48;
+
+
+
+}
+
+.bttn:hover {
+    background-color: #ff5821;
+    color: white;
+}
+
+/*this is fingerprint icon*/
+.sivac {
+    position: absolute;
+    top: 0px;
+    left: -85px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ff5821;
+    border: 2px solid #ffc299;
+
+}
+
+
+
+.circle1 {
+    height: 65px;
+    width: 65px;
+
+    background-color: white;
+    border-radius: 50%;
+
+}
+
+.circle1:hover {
+    background-color: #ff5821;
+    color: white;
+
+}
+
+
+
+
+/*this is gift icon*/
+.sivac1 {
+    position: absolute;
+    top: 220px;
+    left: -85px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ff5821;
+    border: 2px solid #ffc299;
+
+}
+
+
+.circle2 {
+    height: 65px;
+    width: 65px;
+
+    background-color: white;
+
+    border-radius: 50%;
+}
+
+.circle2:hover {
+    background-color: #ff5821;
+    color: white;
+
+
+
+
+}
+
+
+/*this is gift icon*/
+.sivac2 {
+    position: absolute;
+    top: 390px;
+    left: -85px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ff5821;
+    border: 2px solid #ffc299;
+
+}
+
+.circle3 {
+    height: 65px;
+    width: 65px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.circle3:hover {
+    background-color: #ff5821;
+    color: white;
+}
+
+
+
+
+
+.sivasection2 {
+
+    height: 390px;
+    background-color: white;
+
+    position: relative;
+    animation-name: header;
+    animation-duration: 2s;
+    animation-fill-mode: both;
+
+    z-index: 10;
+
+}
+
+
+
+@keyframes header {
+    from {
+        top: 200px;
+    }
+
+    to {
+        top: 0px
+    }
+
+    from {
+        opacity: 0.3
+    }
+
+    to {
+        opacity: 1
+    }
+
+}
+
+.imagin {
+    position: relative;
+    animation-name: image;
+    animation-duration: 2s;
+    animation-fill-mode: both;
+
+
+}
+
+
+
+@keyframes image {
+    from {
+        left: -100px;
+    }
+
+    to {
+        left: 0px
+    }
+
+    from {
+        opacity: 0.3
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+
+
+.sivasection3 {
+
+    height: 850px;
+    background-color: #fff9f7;
+}
+
+
+
+
+/*service start hrere*/
+.sivaservice {
+    text-align: center;
+    background-color: #fff9f7;
+
+}
+
+
+
+
+.columns {
+    float: left;
+    width: 380px;
+
+    padding: 0 10px;
+
+}
+
+
+.rows {
+    margin: 0px -27px;
+
+
+}
+
+
+.rows:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+
+
+
+.cards {
+    box-shadow: 0 4px 8px 1PX rgba(0, 0, 0, 0.2);
+    padding: 6px;
+    text-align: center;
+    padding-top: 50px;
+
+
+    background-color: white;
+}
+
+.service {
+    background-color: #fff9f7;
+    width: 100%;
+    border: 15px solid #fff9f7;
+    margin-top: -70px;
+    padding-top: 50px;
+
+
+}
+
+.sivaserviceicon1 {
+    position: absolute;
+    top: 2380px;
+    left: 220px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    z-index: 10;
+
+
+
+}
+
+.circleserviceicon1 {
+    height: 70px;
+    width: 70px;
+    background-color: #ff5821;
+    border-radius: 50%;
+    border: 7px solid white;
+}
+
+.circleserviceicon1:hover {
+    border: 2px solid #ff5821;
+
+
+    background-color: white;
+    color: #ff5821;
+}
+
+.sivaserviceicon2 {
+    position: absolute;
+    top: 2380px;
+    left: 590px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+
+
+}
+
+.circleserviceicon2 {
+    height: 70px;
+    width: 70px;
+    background-color: #ff5821;
+    border-radius: 50%;
+    border: 7px solid white;
+}
+
+.circleserviceicon2:hover {
+    border: 2px solid #ff5821;
+
+
+    background-color: white;
+    color: #ff5821;
+}
+
+
+.sivaserviceicon3 {
+    position: absolute;
+    top: 2380px;
+    left: 970px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+
+
+}
+
+.circleserviceicon3 {
+    height: 70px;
+    width: 70px;
+    background-color: #ff5821;
+    border-radius: 50%;
+    border: 7px solid white;
+}
+
+.circleserviceicon3:hover {
+    border: 2px solid #ff5821;
+
+
+    background-color: white;
+    color: #ff5821;
+}
+
+
+.sivaserviceicon4 {
+    position: absolute;
+    top: 2650px;
+    left: 220px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+
+
+}
+
+.circleserviceicon4 {
+    height: 70px;
+    width: 70px;
+    background-color: #ff5821;
+    border-radius: 50%;
+    border: 7px solid white;
+}
+
+.circleserviceicon4:hover {
+    border: 2px solid #ff5821;
+
+
+    background-color: white;
+    color: #ff5821;
+}
+
+
+.sivaserviceicon5 {
+    position: absolute;
+    top: 2650px;
+    left: 590px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+
+
+}
+
+.circleserviceicon5 {
+    height: 70px;
+    width: 70px;
+    background-color: #ff5821;
+    border-radius: 50%;
+    border: 7px solid white;
+    font-size: 30px;
+}
+
+.circleserviceicon5:hover {
+    border: 2px solid #ff5821;
+
+
+    background-color: white;
+    color: #ff5821;
+}
+
+.sivaserviceicon6 {
+    position: absolute;
+    top: 2650px;
+    left: 970px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+
+
+}
+
+.circleserviceicon6 {
+    height: 70px;
+    width: 70px;
+    background-color: #ff5821;
+    border-radius: 50%;
+    border: 7px solid white;
+}
+
+.circleserviceicon6:hover {
+    border: 2px solid #ff5821;
+
+
+    background-color: white;
+    color: #ff5821;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*service end here*/
+
+.grid-container {
+    display: grid;
+
+    grid-template-columns: 550px 550px;
+    height: 800px;
+    gap: 25px;
+    background-color: white;
+
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.grid-container>div {
+    background-color: white;
+
+
+    padding: 20px 0;
+
+}
+
+.mission {
+    background-image: url(save4.jpg);
+    background-size: 100%;
+    color: #0b0808;
+    border-radius: 5px;
+
+}
+
+.mission23 {
+    background-image: url(save2.jpg);
+    background-size: 100%;
+    color: #0b0808;
+    border-radius: 5px;
+
+}
+
+.mission24 {
+    background-image: url(save3.jpg);
+    background-size: 100%;
+    color: #0b0808;
+    border-radius: 5px;
+
+}
+
+.mission25 {
+    background-image: url(save1.jpg);
+    background-size: 100%;
+    color: #0b0808;
+    border-radius: 5px;
+
+}
+
+.mission2 {
+    border: 1px solid rgb(241, 240, 240);
+    width: 500px;
+    height: 170px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 5px;
+    position: absolute;
+    top: 3155px;
+    left: 100px;
+    padding: 10px;
+}
+
+.mission3 {
+    border: 1px solid rgb(241, 240, 240);
+    width: 500px;
+    height: 170px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 5px;
+    position: absolute;
+    top: 3155px;
+    left: 675px;
+    padding: 10px;
+
+
+}
+
+.mission4 {
+    border: 1px solid rgb(241, 240, 240);
+    width: 500px;
+    height: 170px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 5px;
+    position: absolute;
+    top: 3498px;
+    left: 100px;
+    padding: 10px;
+
+
+}
+
+.mission5 {
+    border: 1px solid rgb(241, 240, 240);
+    width: 500px;
+    height: 170px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 5px;
+    position: absolute;
+    top: 3498px;
+    left: 675px;
+    padding: 10px;
+
+
+}
+
+/*for slide show start*/
+.sivaslide {
+    border: 1px solid rgb(15, 5, 5);
+    background-image: url(slide2.jpg);
+    background-size: 100%;
+    height: 430px;
+    width: 1270px;
+    text-align: center;
+    color: white;
+    padding: 195px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+
+}
+
+.oval {
+    height: 70px;
+    width: 100px;
+    background-color: white;
+    border-radius: 50%;
+    border: 7px solid #858585;
+}
+
+/*slide end*/
+
+
+
+/* for form in ipmega */
+.sivaform {
+    border: 2px solid white;
+    background-color: rgb(251, 253, 253);
+    width: 1270px;
+    height: 750px;
+    padding-left: 200px;
+
+    padding-right: 100px;
+    padding-top: 50px;
+
+
+
+
+
+}
+
+.columnf {
+    float: left;
+    width: 30%;
+    padding: 0px 10px;
+
+
+
+
+}
+
+.columnf1 {
+    float: left;
+    width: 90%;
+    padding: 0px 10px;
+
+
+
+}
+
+.rowf1 {
+    padding: 10px;
+}
+
+.rowf {
+    margin: 0 -5px;
+
+
+
+}
+
+
+.rowf:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+    .columnf {
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+
+    }
+}
+
+
+.cardf {
+    box-shadow: 1px 1px 2px rgb(185, 178, 178), 0 0 25px rgb(209, 209, 218), 5px 5px 10px rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: white;
+    padding-top: 30px;
+    text-align: left;
+    padding-left: 80px;
+}
+
+.sivaformicon {
+    position: absolute;
+    top: 4375px;
+    left: 225px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ff5821;
+
+}
+
+.circleformicon {
+    height: 50px;
+    width: 50px;
+    border: 2px dotted #f7bca3;
+
+    border-radius: 50%;
+}
+
+.sivaformicon1 {
+    position: absolute;
+    top: 4375px;
+    left: 520px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ff5821;
+
+}
+
+.circleformicon1 {
+    height: 50px;
+    width: 50px;
+    border: 2px dotted #f7bca3;
+
+    border-radius: 50%;
+}
+
+.sivaformicon2 {
+    position: absolute;
+    top: 4375px;
+    left: 810px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ff5821;
+
+}
+
+.circleformicon2 {
+    height: 50px;
+    width: 50px;
+    border: 2px dotted #f7bca3;
+
+    border-radius: 50%;
+}
+
+/*form ends here*/
+
+
+/* last section starts here*/
+
+.sivalast {
+    border: 2px solid white;
+    background-color: #fff9f7;
+    width: 1270px;
+    height: 330px;
+    padding-top: 50px;
+
+
+}
+
+.columnl {
+    float: left;
+    width: 20%;
+    padding: 0 0px;
+}
+
+.columnl1 {
+    float: left;
+    width: 40%;
+    padding: 0 10px;
+}
+
+.rowl {
+    margin: 0 0px;
+}
+
+
+.rowl:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+    .columnl {
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+    }
+}
+
+.cardl {
+    box-shadow: 0 4px 8px 0 #fff9f7;
+    padding: 16px;
+    text-align: left;
+    background-color: #fff9f7;
+
+}
+
+/*end of last section*/
+
+/*for footer*/
+
+.fa {
+
+    font-size: 15px;
+    padding-top: 11px;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.6;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.fa-facebook {
+    background: #ff5821;
+    color: white;
+}
+
+.fa-twitter {
+    background: #ff5821;
+    color: white;
+}
+
+
+
+.fa-linkedin {
+    background: #ff5821;
+    color: white;
+}
+
+
+.fa-instagram {
+    background: #ff5821;
+    color: white;
+}
+
+.fa-skype {
+    background: #ff5821;
+    color: white;
+}
+
+
+.sivabtn {
+
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: #ff5821;
+    color: white;
+    cursor: pointer;
+
+    border-radius: 5px;
+    font-size: 30px;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sivabtn:hover {
+    background-color: #ff794d;
+    color: white;
+}
+
+
+.nav-link:hover {
+    color: #ff5821;
+}
+
+a:hover {
+
+    color: #ff5821;
+}
+
+.mission2:hover,
+.mission3:hover,
+.mission4:hover,
+.mission5:hover {
+    background-color: #ff5821;
+    color: white;
+    border: 0px;
+}

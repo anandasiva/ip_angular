@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component,ViewChild } from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'ip_angular';
+  @ViewChild('myForm')form:any;
+  name:string='';
+
+  showalert(){
+    alert(`Hello ${this.name}! Your Message Has Been Submitted`);
+    this.form.nativeElement.reset();
+  }
 }
